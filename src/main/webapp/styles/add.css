@@ -1,0 +1,99 @@
+#container{
+	background-color: white;
+	width: 60%;
+	height: 87%;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding-top: 10px;
+	box-shadow: 0px 0px 20px black;
+	vertical-align: middle;
+	display:inline-block;
+	margin-top: 80px;
+}
+
+
+#top{
+	color: #0062bf;
+	display: flex;
+	border-bottom: 1px solid #F5F5F6;
+}
+
+h1{
+	padding-left: 20px;
+}
+
+tr>td{
+	padding-bottom: 20px;
+}
+
+tr>td:nth-child(2n+1){
+	padding-right: 20px;
+}
+
+table{
+	margin: auto;
+	padding-top: 5%;
+}
+#mid{
+	display: inline-block;
+	width: 100%;
+}
+.box{
+	box-shadow: 0px 0px 6px grey;
+	height: 350px;
+}
+#ctop{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+#left{
+	width: 48%;
+	
+}
+
+#right{
+	width: 48%;
+}
+
+#cbot{
+	width: 80%;
+	margin: 20px auto 0px auto;
+}
+
+.hcont{
+	background-color: #F5F5F6;
+}
+
+#bot{
+	width: 100%;
+	position: relative;
+	margin-top: 30px;
+}
+
+h4{
+	margin: 0;
+	padding: 10px 0px 10px 10px;
+}
+
+button{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #001F3D !important;
+	font-weight: bold !important;
+	vtext-decoration: none !important;
+}
+
+button:hover{
+	text-decoration: none !important;
+}
